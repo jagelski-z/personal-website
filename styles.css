@@ -23,22 +23,20 @@ a:hover {
 }
 
 nav {
-  background-color: #457359;
-  padding: 16px 24px;
-  margin: 20px 0;
-  border-radius: 12px;
-  border-bottom: 4px solid #D37897;
+  padding: 20px 0 12px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #D37897;
 }
 
 nav a {
-  color: white;
+  color: #457359;
   text-decoration: none;
   font-weight: bold;
   margin-right: 24px;
 }
 
 nav a:hover {
-  color: #F9DEE5;
+  color: #D37897;
 }
 
 .profile-photo {
@@ -79,9 +77,6 @@ ol li::marker {
 
 #chart {
   position: relative;
-  background-color: white;
-  padding: 16px;
-  border-radius: 12px;
 }
 
 #chart svg {
@@ -110,19 +105,18 @@ ol li::marker {
 
 footer {
   clear: both;
-  background-color: #457359;
-  color: white;
   text-align: center;
-  padding: 24px;
-  margin: 40px 0 20px;
-  border-radius: 12px;
+  padding: 24px 0;
+  margin-top: 40px;
+  border-top: 3px solid #D37897;
 }
 
 footer h2 {
-  color: white;
+  color: #457359;
 }
 
 footer a {
-  color: #F9DEE5;
+  color: #D37897;
+  font-weight: bold;
   margin: 0 12px;
 }
