@@ -1,0 +1,128 @@
+body {
+  font-family: "Nunito", Arial, sans-serif;
+  background-color: #fbf8f7;
+  color: #2b2b2b;
+  line-height: 1.7;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+h1, h2, h3 {
+  font-family: "Fredoka", Arial, sans-serif;
+  font-weight: 600;
+  color: #457359;
+}
+
+a {
+  color: #457359;
+}
+
+a:hover {
+  color: #D37897;
+}
+
+nav {
+  background-color: #457359;
+  padding: 16px 24px;
+  margin: 20px 0;
+  border-radius: 12px;
+  border-bottom: 4px solid #D37897;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 24px;
+}
+
+nav a:hover {
+  color: #F9DEE5;
+}
+
+.profile-photo {
+  float: left;
+  width: 300px;
+  margin: 0 30px 20px 0;
+  border-radius: 12px;
+  border: 4px solid #E09FB3;
+}
+
+.story {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.story:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.story p {
+  margin-top: 0;
+}
+
+.story-photo {
+  width: 280px;
+  flex-shrink: 0;
+  height: auto;
+  border-radius: 12px;
+  border: 4px solid #E09FB3;
+}
+
+ol li::marker {
+  color: #D37897;
+  font-weight: bold;
+}
+
+#chart {
+  position: relative;
+  background-color: white;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+#chart svg {
+  width: 100%;
+  height: auto;
+}
+
+.tooltip {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  background-color: #457359;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.city-label,
+.legend-text {
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  fill: #457359;
+}
+
+footer {
+  clear: both;
+  background-color: #457359;
+  color: white;
+  text-align: center;
+  padding: 24px;
+  margin: 40px 0 20px;
+  border-radius: 12px;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer a {
+  color: #F9DEE5;
+  margin: 0 12px;
+}
